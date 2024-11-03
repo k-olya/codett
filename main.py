@@ -36,7 +36,7 @@ def main():
             log_time()
         # Reset AFK flag for the next interval
         AFK = True
-        time.sleep(300)  # Wait for 5 minutes (300 seconds)
+        time.sleep(60)  # Wait for 1 minute (60 seconds)
 
 if __name__ == "__main__":
     main()

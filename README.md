@@ -1,6 +1,6 @@
 # VS Code Time Tracker
 
-A minimalist time-tracking python script for windows. Logs 5 minute intervals during which vscode process `Code.exe` was running and you were not afk.
+A minimalist time-tracking python script for windows. Logs 1 minute intervals during which vscode process `Code.exe` was running and you were not afk.
 
 ## Install
 
