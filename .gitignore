@@ -1,0 +1,7 @@
+# os garbage files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# output
+vscode_time_log.txt
