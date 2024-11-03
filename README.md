@@ -17,10 +17,10 @@ Add the following `codett.vbs` script to the Startup folder:
 ```vbs
 Set WshShell = CreateObject("WScript.Shell")
 WshShell.CurrentDirectory = "C:\path\to\your\desired\working\directory"
-WshShell.Run """C:\path\to\python.exe"" ""C:\path\to\time_tracker.py""", 0
+WshShell.Run """C:\path\to\python.exe"" ""C:\path\to\time_tracker\main.py""", 0
 ```
 
-Make sure to replace `C:\path\to\your\desired\working\directory` as well as `C:\path\to\python.exe` and `C:\path\to\time_tracker.py`
+Make sure to replace `C:\path\to\your\desired\working\directory` as well as `C:\path\to\python.exe` and `C:\path\to\time_tracker\main.py`
 
 ## Output
 
